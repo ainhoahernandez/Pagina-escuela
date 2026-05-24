@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAR | Solicitar Plaza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Index.css" />
+</head>
+<body>
+  <header class="page-hero">
+    <nav class="nav">
+      <div class="brand">JAR</div>
+      <ul class="menu">
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="bachillerato.html">Bachillerato</a></li>
+        <li><a href="ciclos-formativos.html">Ciclos Formativos</a></li>
+        <li><a href="instalaciones.html">Instalaciones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <a class="btn btn-small" href="solicitar-plaza.html" aria-current="page">Solicitar plaza</a>
+    </nav>
+
+    <div class="page-header-content">
+      <p class="eyebrow">Admisiones JAR</p>
+      <h1>Solicitud de plaza</h1>
+      <p>Completa este formulario para iniciar tu proceso de admisión en JAR.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <form class="form">
+        <div class="field">
+          <label for="nombre">Nombre completo</label>
+          <input id="nombre" type="text" placeholder="Tu nombre" />
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input id="email" type="email" placeholder="tuemail@ejemplo.com" />
+        </div>
+        <div class="field">
+          <label for="programa">Programa de interés</label>
+          <select id="programa">
+            <option>Bachillerato</option>
+            <option>CFGM</option>
+            <option>CFGS</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Cuéntanos qué quieres estudiar"></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar solicitud</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>JAR - Bachillerato y Ciclos Formativos</h2>
+    <p>Calle de la Educación, 24, Madrid</p>
+    <p class="copy">© 2026 JAR. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
